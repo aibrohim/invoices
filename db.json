@@ -1,0 +1,31 @@
+{
+  "users": [
+    {
+      "email": "nurulloh23@gmail.com",
+      "password": "$2a$10$V.1KLnLn7pgjg33APCC4I.mFbDXf3w3mkFDAB5jkEfaIlofRgRoea",
+      "id": 1
+    },
+    {
+      "email": "fayzulloh123@gmail.com",
+      "password": "$2a$10$juWGyMxjXd3uKFRKxtF1EOvonRpHGbhtMCND/MauzInZLndC4PKT2",
+      "id": 2
+    },
+    {
+      "email": "sayfulloh123@gmail.com",
+      "password": "$2a$10$HVrFy2Igl6fHZvHCMPJ3PeTLBT0TSyt6G91X0oU7RG4appdwXeON2",
+      "id": 3
+    }
+  ],
+  "invoices": [
+    {
+      "id": 1,
+      "userId": 2,
+      "paid": true,
+      "to": "Ibrohim Alimuhammedov",
+      "email": "ibrohim7840@gmail.com",
+      "date": "2022-09-08",
+      "description": "Graphic Design",
+      "price": 7000
+    }
+  ]
+}
