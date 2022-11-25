@@ -18,14 +18,14 @@
   ],
   "invoices": [
     {
-      "id": 1,
-      "userId": 2,
-      "paid": true,
-      "to": "Ibrohim Alimuhammedov",
-      "email": "ibrohim7840@gmail.com",
-      "date": "2022-09-08",
-      "description": "Graphic Design",
-      "price": 7000
+      "userId": 1,
+      "to": "Hellojon",
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "to": "Hellojon",
+      "id": 2
     }
   ]
 }
