@@ -18,13 +18,25 @@
   ],
   "invoices": [
     {
-      "userId": 1,
-      "to": "Hellojon",
-      "id": 1
+      "id": 1,
+      "userId": 2,
+      "paid": true,
+      "to": "Ibrohim Alimuhammedov",
+      "email": "ibrohim7840@gmail.com",
+      "deuDate": "2022-09-08",
+      "createdDate": "2022-11-25",
+      "description": "Graphic Design",
+      "price": 7000
     },
     {
       "userId": 1,
-      "to": "Hellojon",
+      "price": 50,
+      "email": "falonchi@gmail.com",
+      "to": "Falonchiga",
+      "term": 7,
+      "dueDate": "2022-09-07",
+      "createdDate": "2022-11-26T15:40:10.929Z",
+      "paid": false,
       "id": 2
     }
   ]
