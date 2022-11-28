@@ -2,7 +2,7 @@
 const jsonServer = require("json-server");
 const auth = require("json-server-auth");
 const yup = require("yup");
-const middlewares = jsonServer.defaults({ noCors: false });
+// const middlewares = jsonServer.defaults({ noCors: false });
 
 const app = jsonServer.create();
 
@@ -15,7 +15,7 @@ const rules = auth.rewriter({
 
 // /!\ Bind the router db to the app
 app.db = router.db;
-app.use(middlewares);
+// app.use(middlewares);
 // You must apply the auth middleware before the router
 app.use(rules);
 const invoiceValidationScheme = yup.object().shape({
