@@ -2,7 +2,7 @@
 const jsonServer = require("json-server");
 const auth = require("json-server-auth");
 const yup = require("yup");
-const middlewares = jsonServer.defaults({ noCors: true });
+const middlewares = jsonServer.defaults({ noCors: false });
 
 const app = jsonServer.create();
 
